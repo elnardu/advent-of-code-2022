@@ -26,6 +26,8 @@ pub fn build(b: *std.build.Builder) void {
     const targets = [_]Target{
         Target.new("01-part1", "src/01/part1.zig"),
         Target.new("01-part2", "src/01/part2.zig"),
+        Target.new("02-part1", "src/02/part1.zig"),
+        Target.new("02-part2", "src/02/part2.zig"),
     };
 
     for (targets) |t| {
