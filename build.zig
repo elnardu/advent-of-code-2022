@@ -34,6 +34,8 @@ pub fn build(b: *std.build.Builder) void {
         Target.new("04-part2", "src/04/part2.zig"),
         Target.new("05-part1", "src/05/part1.zig"),
         Target.new("05-part2", "src/05/part2.zig"),
+        Target.new("06-part1", "src/06/part1.zig"),
+        Target.new("06-part2", "src/06/part2.zig"),
     };
 
     for (targets) |t| {
